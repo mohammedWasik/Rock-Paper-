@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  padding-top: 50px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+#main {
+  display: flex;
+  border: 1px solid black;
+  margin: auto;
+  margin-top:10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-top: 5px;
+  text-align: center;
+  width: 75%;
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+
+img:hover {
+  box-shadow: inset 0px 0px 20px 1px rgba(9, 21, 69, 0.74);
+}
+
+#score {
+  display: flex;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 9px;
+  padding-bottom: 2px;
+  text-align: center;
+  width: 25%;
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+td {
+  justify-content: space-around;
+  text-align: center;
+  padding-left: 15px;
+}
+th{
+  padding-left: 10px;
+}
+
+
+#btn{
+  border-radius: 7px;
+  font-size: 19px;
+  transition-duration: 0.4s;
+}
+
+#btn:hover {
+  background-color: red;
+  color: white;
+\}

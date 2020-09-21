@@ -1,0 +1,76 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="logo">
+      <img
+        src="images/logo.jpeg"
+        width="120px"
+        height="120px"
+        onclick="window.location.reload();"
+        id="logoimg"
+      />
+    </div>
+    <h4>Best Of 3 Rounds</h4>
+    <div id="main">
+      <img
+        src="images/rock.png"
+        id="rock"
+        width="130px"
+        height="130px"
+        onclick="rps(this)"
+      />
+      <img
+        src="images/paper.png"
+        id="paper"
+        width="130px"
+        height="130px"
+        onclick="rps(this)"
+      />
+      <img
+        src="images/scissors.png"
+        id="scissor"
+        width="130px"
+        height="130px"
+        onclick="rps(this)"
+      />
+    </div>
+    <button id="btn" class="btn btn-danger" onclick="resetAll();">Reset</button>
+    <div>
+        
+    </div>
+
+    <div id="score">
+      <table>
+        <tr>
+          <th>Player</th>
+          <th>Computer</th>
+        </tr>
+        <tr>
+          <td id="prow1"></td>
+          <td id="crow1"></td>
+        </tr>
+        <tr>
+          <td id="prow2"></td>
+          <td id="crow2"></td>
+        </tr>
+        <tr>
+          <td id="prow3"></td>
+          <td id="crow3"></td>
+        </tr>
+      </table>
+    </div>
+    
+
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <footer>
+      <p><a href="https://github.com/mohammedWasik/Rock-Paper-Scissor">@mohammedWasik</a></p>
+  </footer>
+  </footer>
+</html>
